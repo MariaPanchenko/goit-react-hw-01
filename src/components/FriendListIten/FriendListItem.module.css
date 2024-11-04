@@ -1,0 +1,21 @@
+/* .FriendListItemList {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+} */
+.FriendListItem {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.image {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 80px;
+}
+.name {
+  font-weight: bold;
+}
