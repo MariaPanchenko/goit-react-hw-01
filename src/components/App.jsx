@@ -6,7 +6,7 @@ import friends from '../friends.json';
 import transactions from '../transactions.json';
 import Transactions from './Transactions/Transactions';
 
-const App = () => {
+function App() {
   return (
     <div>
       <Profile
@@ -20,5 +20,5 @@ const App = () => {
       <Transactions items={transactions} />
     </div>
   );
-};
+}
 export default App;
