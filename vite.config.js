@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     sourcemap: true,
-    base: '/goit-react-hw-01/',
+    base: /goit-react-hw-01/,
   },
 });
