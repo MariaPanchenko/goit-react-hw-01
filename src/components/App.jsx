@@ -9,7 +9,6 @@ import Transactions from './Transactions/Transactions';
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
       <Profile
         name={userData.username}
         tag={userData.tag}
